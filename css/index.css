@@ -13,3 +13,100 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+.hero .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero .container .description {
+    margin: 30px;
+    width: 50%;
+}
+
+
+
+.hero img {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    align-self: center;
+}
+
+/* About Me*/
+.about-me {
+    margin: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-me h3 {
+    width: 100%;
+}
+
+.about-me p {
+    width: 600px;
+}
+
+/* Projects Section*/
+
+.projects {
+    text-align: center;
+    background-color: #3298dc;
+    padding: 40px 0px;
+}
+
+.projects h3 {
+    color: white;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border-radius: 5px;
+    width: 250px;
+    overflow: hidden;
+}
+
+
+/* Skills Section */
+.skills {
+    color: #3298dc;
+    margin-top: 50px;
+}
+
+/* Helper Classes */
+.center {
+    text-align: center;
+}
+
+@media screen and (max-width: 622px) {
+
+    .container {
+        position: relative;
+    }
+
+    .description .title {
+        margin-top: 10px;
+    }
+
+
+    .hero img {
+        height: 100px;
+        width: auto;
+        border-radius: 50%;
+
+    }
+
+
+}
