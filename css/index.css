@@ -123,6 +123,9 @@ ul a:not(:last-child) {
     box-shadow: 0 1em 2em -0.125em rgba(50, 152, 220, 0.5), 0 0px 0 5px rgba(50, 152, 220, 0.02);
 }
 
+.card-site {
+    display: block;
+}
 
 /* Skills Section */
 .skills {
