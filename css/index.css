@@ -158,6 +158,38 @@ p a {
     text-align: center;
 }
 
+.skills-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-icon-container a{
+    color: white;
+}
+
+.skills-icon {
+    border-radius: 4px;
+    transition: all .3s;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+
+i {
+    font-size: 50px;
+}
+
+.skills-icon:hover {
+    color: green;
+    background-color: #fff;
+}
+
+
+
+
+
 @media screen and (max-width: 622px) {
 
     .container {
