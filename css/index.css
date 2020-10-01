@@ -96,6 +96,7 @@ ul a:not(:last-child) {
 
 .about-me p {
     width: 600px;
+    margin-bottom: 20px;
 }
 
 /* Projects Section*/
