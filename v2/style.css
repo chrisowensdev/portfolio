@@ -38,6 +38,7 @@ body {
 
 .navbar.active {
     background-color: var(--dark-grey);
+    border-bottom: 1px solid var(--dark-blue);
 }
 
 .navbar h3 {
@@ -142,13 +143,102 @@ body {
 
 section {
     text-align: center;
+    letter-spacing: 2px;
+}
+
+.section-title {
+    color: var(--dark-blue);
+    font-size: 48px;
+}
+
+.about-section {
+    padding: 50px;
+    position: relative;
 }
 
 .about-section p{
-    margin: 100px auto;
-    max-width: 500px;
-    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px 30px;
+    color: var(--grey-color)
 }
+
+.about-section .box-1 {
+    background-color:#1f28336c;
+    padding: 20px;
+    z-index: -1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.text-divider {
+    margin: 0 auto;
+    width: 300px;
+    height: 1px;
+    background-color: var(--dark-blue);
+    z-index: 2;
+    position: relative;
+    
+}
+
+.skills-section {
+    padding: 50px;
+    background-color: var(--dark-grey);
+}
+
+.skills-section h3 {
+    font-size: 48px;
+}
+
+.skills-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.skills-icon {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.skills-icon a:hover{
+    color: var(--dark-blue);
+}
+
+.skills-icon a {
+    text-decoration: none;
+    color: var(--grey-color);
+}
+
+.skills-icon i {
+    font-size: 60px;
+}
+
+.skills-icon p {
+    margin: 5px;
+}
+
+.project-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projects-section .project {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--dark-grey);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: var(--grey-color)
+}
+
+.contact-section {
+    height: 400px;
+}
+
+
 
 @media (max-width: 780px) {
     .intro-section img {
