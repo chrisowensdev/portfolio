@@ -231,7 +231,7 @@ section {
 }
 
 .projects-section .project {
-    width: 90%;
+    width: 95%;
     max-width: 1000px;
     margin: 40px auto;
     background-color: var(--dark-grey);
