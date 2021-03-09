@@ -170,7 +170,7 @@ section {
     height: 300px;
     width: 300px;
     z-index: -1;
-    animation: moveLeft 10s ;
+    animation: moveLeft 20s ;
 }
 
 .about-section .svg-credit {
@@ -182,7 +182,11 @@ section {
 
 @keyframes moveLeft {
     0% {
-        transform: translateX(-300px);
+        transform: translateX(-200vw);
+    }
+
+    20% {
+        transform: translateX(-200vw);
     }
 
     100% {
