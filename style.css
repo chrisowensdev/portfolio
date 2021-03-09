@@ -170,7 +170,15 @@ section {
     height: 300px;
     width: 300px;
     z-index: -1;
-    animation: moveLeft 20s ;
+    /* animation: moveLeft 40s ; */
+}
+
+.about-section .computer-svg {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 65%;
+    z-index: -1;
 }
 
 .about-section .svg-credit {
@@ -180,19 +188,19 @@ section {
     font-size: 8px;
 }
 
-@keyframes moveLeft {
+/* @keyframes moveLeft {
     0% {
         transform: translateX(-200vw);
     }
 
-    20% {
+    50% {
         transform: translateX(-200vw);
     }
 
     100% {
         transform: translateX(0);
     }
-}
+} */
 
 .about-section p{
     margin: 10px auto;
