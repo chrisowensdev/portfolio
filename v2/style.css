@@ -186,7 +186,7 @@ section {
 }
 
 .skills-section {
-    padding: 50px;
+    padding: 50px 10px;
     background-color: var(--dark-grey);
 }
 
@@ -197,7 +197,7 @@ section {
 .skills-icon-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 800px;
     margin: 20px auto;
     justify-content: center;
 }
@@ -231,8 +231,8 @@ section {
 }
 
 .projects-section .project {
-    width: 80%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 1000px;
     margin: 40px auto;
     background-color: var(--dark-grey);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
@@ -254,12 +254,15 @@ section {
 
 .projects-section .project .links {
     margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .projects-section .project .links a {
     color: var(--light-blue);
     text-decoration: none;
-    margin: 40px 20px;
+    margin: 10px 20px;
     transition: all 0.2s ease-in;
 }
 
