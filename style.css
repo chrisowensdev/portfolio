@@ -162,6 +162,33 @@ section {
     position: relative;
 }
 
+.about-section .svg {
+    position: absolute;
+    left: 60%;
+    bottom: 20px;
+    height: 300px;
+    width: 300px;
+    z-index: -1;
+    animation: moveLeft 10s ;
+}
+
+.about-section .svg-credit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 8px;
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(-300px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .about-section p{
     margin: 10px auto;
     max-width: 600px;
