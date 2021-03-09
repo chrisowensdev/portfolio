@@ -226,12 +226,12 @@ section {
 }
 
 .projects-section {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .projects-section .project {
-    width: 95%;
+    width: 100%;
     max-width: 1000px;
     margin: 40px auto;
     background-color: var(--dark-grey);
@@ -271,8 +271,16 @@ section {
     transform: scale(1.2);
 }
 
-.contact-section {
-    height: 400px;
+.contact-section .contact-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.contact-section .contact-links a {
+    margin: 20px;
+    color: var(--dark-blue)
 }
 
 
