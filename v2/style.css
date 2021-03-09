@@ -300,10 +300,17 @@ section {
         transition: all .6s ease-in-out;
     }
 
+    
     .navbar .navlist li {
         text-align: center;
         width: 100%;
-        padding: 20px 0;
+        padding: 30px 0;
+        border-top: 1px solid var(--grey-color);
+        
+    }
+
+    .navbar .navlist .nav-item {
+        margin: 0;
     }
 
     .navbar .navlist.show {
