@@ -160,6 +160,7 @@ section {
 .about-section {
     padding: 70px 20px;
     position: relative;
+    overflow: hidden;
 }
 
 .about-section .svg {
