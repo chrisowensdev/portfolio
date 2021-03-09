@@ -1,287 +1,265 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Chris Owens</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Christopher Owens</title>
 </head>
-
 <body>
-    <section class="hero is-info is-small">
-        <div class="hero-body">
-            <div class="container">
-                <div class="description">
-                    <h1 class="title is-3">Chris Owens</h1>
-                    <h2 class="subtitle">Software Developer</h2>
-                </div>
-
-                <img src="images/profile_pic_400x533.jpg" alt="profile-pic" />
+    <header id="header">
+        <nav class="navbar">
+            <h3><a href="#header">Christopher Owens</a></h3>
+            <div class="mobile-menu-button" id="menu-button">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </div>
-            <nav>
-                <ul>
-                    <a href="#skills">
-                        <li>Skills</li>
-                    </a>
-                    <a href="#projects">
-                        <li>Projects</li>
-                    </a>
-                    <a href="#contact">
-                        <li>Contact</li>
-                    </a>
-                </ul>
-            </nav>
+            <ul class="navlist">
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#skills">Skills</a></li>
+                <li class="nav-item">Projects</li>
+                <li class="nav-item">Contact</li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="intro-section">
+        <img src="./images/pic150x200.jpg" alt="">
+
+        <h1>Hi, I'm Chris!</h1>
+        <h2>Software Developer</h2>
+    </section>
+
+    <section class="about-section" id="about">
+        <div>
+            <p> I recently graduated from the DigitalCrafts full-stack immersive development program.  I am currently a developer in residence for DigitalCrafts which gives me the ability to continue solidifying my skills learned in the program as well as help out fellow web developers-to-be learn and understand the concepts that are taught there.</p>
+        <div class="text-divider"></div>
+            <p> I just recently transitioned from
+                my previous roll as an assistant warehouse manager. I spent 11+
+                years managing and working with others for Ken Stanton Music, a
+                chain of music stores in the Atlanta Metro area.</p>
         </div>
-    </section>
-    <section id="about-me" class="about-me">
-        <h3 class="title is-4">About Me</h3>
-        <p>
-            I am currently a full-time software developer student at Digital
-            Crafts learning new skills everyday to advance my knowledge of
-            software and web development. I just recently transitioned from
-            my previous roll as an assistant warehouse manager. I spent 11+
-            years managing and working with others for Ken Stanton Music, a
-            chain of music stores in the Atlanta Metro area.
-        </p>
 
-        <p>
-            Outside of my desire to learn and become a great developer, I
-            enjoy playing guitar and learning about life.
-        </p>
-
-        <p>
-            I enjoy the challenges of problem solving code and learning how
-            all of it works everyday.
-        </p>
+            
     </section>
-    <section id="skills" class="skills">
-        <h3 class="title is-3 center">Skills</h3>
+    <section class="skills-section" id="skills">
+        <h2 class="section-title">Skills</h2>
         <div class="skills-icon-container is-info">
-            <a href="https://www.python.org/">
+            
                 <div class="skills-icon">
+                    <a href="https://www.python.org/">
                     <i class="devicon-python-plain"></i>
                     <p class="heading">PYTHON</p>
+                </a>
                 </div>
-            </a>
-
-            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+            
                 <div class="skills-icon">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
                     <i class="devicon-html5-plain"></i>
                     <p class="heading">HTML5</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            
                 <div class="skills-icon">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
                     <i class="devicon-css3-plain"></i>
                     <p class="heading">CSS</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            
                 <div class="skills-icon">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
                     <i class="devicon-javascript-plain"></i>
                     <p class="heading">Javascript</p>
+                </a>
                 </div>
-            </a>
+         
 
-            <a href="https://getbootstrap.com/">
+            
                 <div class="skills-icon">
+                    <a href="https://getbootstrap.com/">
                     <i class="devicon-bootstrap-plain"></i>
                     <p class="heading">Bootstrap</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://github.com/">
+            
                 <div class="skills-icon">
+                    <a href="https://github.com/">
                     <i class="devicon-github-plain"></i>
                     <p class="heading">Github</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://git-scm.com/">
+            
                 <div class="skills-icon">
+                    <a href="https://git-scm.com/">
                     <i class="devicon-git-plain"></i>
                     <p class="heading">Git</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://www.php.net/">
+            
                 <div class="skills-icon">
+                    <a href="https://www.php.net/">
                     <i class="devicon-php-plain"></i>
                     <p class="heading">PHP</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://codex.wordpress.org/">
+            
                 <div class="skills-icon">
+                    <a href="https://codex.wordpress.org/">
                     <i class="devicon-wordpress-plain"></i>
                     <p class="heading">WordPress</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://www.postgresql.org/">
+            
                 <div class="skills-icon">
+                    <a href="https://www.postgresql.org/">
                     <i class="devicon-postgresql-plain"></i>
                     <p class="heading">PostreSQL</p>
+                </a>
                 </div>
-            </a>
+            
 
-            <a href="https://nodejs.dev/">
+            
                 <div class="skills-icon">
+                    <a href="https://nodejs.dev/">
                     <i class="devicon-nodejs-plain"></i>
                     <p class="heading">Node.js</p>
+                </a>
                 </div>
-            </a>
-            <a href="https://expressjs.com/">
+            
+            
                 <div class="skills-icon">
+                    <a href="https://expressjs.com/">
                     <i class="devicon-express-original"></i>
                     <p class="heading">Express.js</p>
+                </a>
                 </div>
-            </a>
-            <a href="https://reactjs.org/">
+            
+            
                 <div class="skills-icon">
+                    <a href="https://reactjs.org/">
                     <i class="devicon-react-original"></i>
                     <p class="heading">React.js</p>
+                </a>
                 </div>
-            </a>
-            <a href="https://mongodb.com/">
+
                 <div class="skills-icon">
+                    <a href="https://redux.js.org/">
+                        <i class="devicon-redux-original"></i>
+                    <p class="heading">Redux</p>
+                </a>
+                </div>
+          
+            
+                <div class="skills-icon">
+                    <a href="https://mongodb.com/">
                     <i class="devicon-mongodb-plain"></i>
                     <p class="heading">MongoDB</p>
+                </a>
                 </div>
-            </a>
+            
             
         </div>
     </section>
-
-    <section id="projects" class="projects">
-        <h3 class="title is-4">Projects</h3>
-        <div class="card-container">
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="images/salonsearch.png" alt="Placeholder image" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">Salon</p>
-
-                            <p class="subtitle is-6">
-                                HTML, CSS, Javascript, Node.js, Express.js,
-                                PostreSQL, Materialize CSS
-                            </p>
-                            <p class="subtitle is-6">September 2020</p>
-                        </div>
-                    </div>
-
-                    <div class="content is-small">
-                        An app that will let a user browse through artistic
-                        pieces and start a conversation virtually. Users can
-                        create an account that lets them leave reviews of
-                        individual artwork and also comment on others'
-                        reviews. This is a fullstack project that was
-                        completed as part of a four person team remotely.
-                    </div>
-                    <a href="https://github.com/chrisowensdev/Salon">Github Repo</a>
-                    <a class="card-site" href="https://salon-talk.com/">Site</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://camo.githubusercontent.com/f4b0c986199426ead39365d205ec632e528d3e12852a32f73cf917364d60acaf/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f63617073746f6e6575706c6f61642e61707073706f742e636f6d2f6f2f696e74726f2d73637265656e2e706e673f616c743d6d6564696126746f6b656e3d65393866633366372d666533652d346130322d613764312d653166666162373638613262" alt="Placeholder image" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">SquadMate</p>
-                            <p class="subtitle is-6">
-                                React, Node.js, Express, MongoDB
-                            </p>
-                            <p class="subtitle is-6">November 2020</p>
-                        </div>
-                    </div>
-
-                    <div class="content is-small">
-                        This is an app we describe as the "Coach's Toolbox".  It gives a coach or a manager the ability to keep track and have access to critical information about the members of their team, such as contact info, medical info, and anything else that would be needed if an emergency were to come up.  The app also gives the coach the ability to upload documents, such as waiver forms, guides, and anything else that would be useful to the team member
-                    </div>
-                    <a href="https://github.com/chrisowensdev/Squadmate-frontend">Github Repo</a>
-                    <a class="card-site" href="https://squadmate.app/">Site</a>
-                    <a href="https://youtu.be/fxLqGzXfRcU">Demo Video</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="images/terminalkombat.png" alt="Placeholder image" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">Terminal Kombat</p>
-                            <p class="subtitle is-6">Python</p>
-                            <p class="subtitle is-6">August 2020</p>
-                        </div>
-                    </div>
-
-                    <div class="content is-small">
-                        RPG style fighting game using Python. This was my
-                        first introduction to Python and programming
-                        principles for the Digital Crafts bootcamp. I was
-                        part of a 4 person team that was able to work
-                        together remotely to complete this project in three
-                        days. Not only did I learn about basic programming
-                        principles but also learned about team
-                        collaboration.
-                    </div>
-                    <a href="https://github.com/chrisowensdev/terminal-kombat">Github Repo</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="images/rab.png" alt="Placeholder image" />
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">
-                                Romantic About Baseball
-                            </p>
-                            <p class="subtitle is-6">
-                                HTML, CSS, Javascript, PHP, WordPress
-                            </p>
-                            <p class="subtitle is-6">July 2020</p>
-                        </div>
-                    </div>
-
-                    <div class="content is-small">
-                        A friend of mine needed some help with customizing
-                        their baseball blog. I had very little knowledge of
-                        PHP or WordPress but through tutorials and Wordpress
-                        documentation, I was able to create a customized
-                        theme to display the information and ideas that he
-                        wanted. I used some of the built-in functions from
-                        WordPress along with helper functions to display the
-                        blog posts.
-                    </div>
-                    <a href="https://github.com/chrisowensdev/RAB-Theme">Github Repo</a>
-                    <a class="card-site" href="https://romanticaboutbaseball.com">Site</a>
-                </div>
-            </div>
+    <section class="projects-section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project">
+            <img src="https://camo.githubusercontent.com/f4b0c986199426ead39365d205ec632e528d3e12852a32f73cf917364d60acaf/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f63617073746f6e6575706c6f61642e61707073706f742e636f6d2f6f2f696e74726f2d73637265656e2e706e673f616c743d6d6564696126746f6b656e3d65393866633366372d666533652d346130322d613764312d653166666162373638613262" alt="Squadmate" />
+            <h3>SquadMate</h3>
+            <h4>React, Node.js, Express, MongoDB</h4>
+            <h4>November 2020</h4>
+            <div class="content is-small">
+                                This is an app we describe as the "Coach's Toolbox".  It gives a coach or a manager the ability to keep track and have access to critical information about the members of their team, such as contact info, medical info, and anything else that would be needed if an emergency were to come up.  The app also gives the coach the ability to upload documents, such as waiver forms, guides, and anything else that would be useful to the team member
+                            </div>
+                            <div class="links">
+                                <a href="https://github.com/chrisowensdev/Squadmate-frontend">Github Repo</a>
+                                <a class="card-site" href="https://squadmate.app/">Site</a>
+                                <a href="https://youtu.be/fxLqGzXfRcU">Demo Video</a>
+                            </div>
+        
         </div>
+
+        <div class="project">
+            <img src="images/salonsearch.png" alt="Salon" />
+            <h3>Salon</h3>
+            <h4>HTML, CSS, Javascript, Node.js, Express.js,
+                PostreSQL, Materialize CSS</h4>
+            <h4>September 2020</h4>
+            <div class="content is-small">
+                An app that will let a user browse through artistic
+                pieces and start a conversation virtually. Users can
+                create an account that lets them leave reviews of
+                individual artwork and also comment on others'
+                reviews. This is a fullstack project that was
+                completed as part of a four person team remotely.
+            </div>
+            <div class="links">
+                <a href="https://github.com/chrisowensdev/Salon">Github Repo</a>
+                <a class="card-site" href="https://salon-talk.com/">Site</a>
+            </div>
+
+        </div>
+
+        <div class="project">
+            <img src="images/terminalkombat.png" alt="Terminal Kombat" />
+            <h3>Terminal Kombat</h3>
+            <h4>Python</h4>
+            <h4>August 2020</h4>
+            <div class="content is-small">
+                RPG style fighting game using Python. This was my
+                first introduction to Python and programming
+                principles for the Digital Crafts bootcamp. I was
+                part of a 4 person team that was able to work
+                together remotely to complete this project in three
+                days. Not only did I learn about basic programming
+                principles but also learned about team
+                collaboration.
+            </div>
+            <div class="links">
+                <a href="https://github.com/chrisowensdev/terminal-kombat">Github Repo</a>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="project">
+            <img src="images/rab.png" alt="Romantic About Baseball" />
+            <h3>Romantic About Baseball</h3>
+            <h4>HTML, CSS, Javascript, PHP, WordPress</h4>
+            <h4>July 2020</h4>
+            <div class="content is-small">
+                A friend of mine needed some help with customizing
+                their baseball blog. I had very little knowledge of
+                PHP or WordPress but through tutorials and Wordpress
+                documentation, I was able to create a customized
+                theme to display the information and ideas that he
+                wanted. I used some of the built-in functions from
+                WordPress along with helper functions to display the
+                blog posts.
+            </div>
+            <div class="links">
+                <a href="https://github.com/chrisowensdev/RAB-Theme">Github Repo</a>
+                <a class="card-site" href="https://romanticaboutbaseball.com">Site</a>
+            </div>
+ 
     </section>
-    <section id="contact" class="contact">
+    <section class="contact-section" id="contact">
         <ul class="contact-links">
             <a href="https://twitter.com/ChrisOwensDev">
                 <li><i class="fab fa-twitter fa-3x"></i></li>
@@ -302,7 +280,8 @@
             <a href="mailto:cowensdev@gmail.com">cowensdev@gmail.com</a>
         </p>
     </section>
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</body>
 
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="scripts.js"></script>
+</body>
 </html>
